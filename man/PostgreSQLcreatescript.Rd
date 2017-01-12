@@ -4,7 +4,8 @@
 \alias{PostgreSQLcreatescript}
 \title{Generate PostgreSQL script}
 \usage{
-PostgreSQLcreatescript(path, type, delim = ",", con. = con)
+PostgreSQLcreatescript(path, type, tblname = NULL, delim = ",",
+  con. = conn)
 }
 \arguments{
 \item{path}{path to the location of the SQL create table scripts

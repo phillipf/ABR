@@ -4,8 +4,8 @@
 \alias{PostgreSQLupload}
 \title{PostgreSQL upload data}
 \usage{
-PostgreSQLupload(pathtodata = NULL, pathtoSQL = NULL, pathtobat = NULL,
-  type, con = con)
+PostgreSQLupload(pathtodata = NULL, pathtoSQL = NULL, tblname = NULL,
+  pathtobat = NULL, type, con = con)
 }
 \arguments{
 \item{type}{connection type, 1 = local database not requiring username/password, 2 = local database requiring username/password, 3 = remote database requiring username/password}

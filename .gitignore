@@ -6,6 +6,7 @@
 *.log
 *.sql
 *.sqlite
+*.txt
 *.csv
 *.xls
 *.xlsx
